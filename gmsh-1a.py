@@ -1,9 +1,13 @@
 # ------------------------------------------------------------------------------
 #
-#  Gmsh Python tutorial 1
+#  Gmsh Python genarating a plate 1x1 with two holes of 0.1 of diameter
+#  one centered at 0.5, 0.5 and one at 0.25, 0.25.
 #
-#  Geometry basics, elementary entities, physical groups
+# Using tansfinite command the generated mesh density is controlled to better define
+# both circle circonference.
 #
+# Denis Lachapelle
+# Dec 18, 2023
 # ------------------------------------------------------------------------------
 
 
