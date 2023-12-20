@@ -51,6 +51,10 @@ gmsh.model.addPhysicalGroup(1, [1], 2, name="ground")
 gmsh.model.addPhysicalGroup(1, [3], 3, name="onevolt")
 gmsh.model.addPhysicalGroup(1, [2, 4], 4, name="zeroflux")
 
+# glvis can read mesh version 2.2
+gmsh.option.setNumber("Mesh.MshFileVersion", 2.2)
+
+
 # We can then generate a 2D mesh...
 gmsh.model.mesh.generate(2)
 
